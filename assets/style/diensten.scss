@@ -1,0 +1,67 @@
+.diensten-section {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 5vh 0;
+  margin: 10px auto 0 auto;
+  //background-image: url("../../assets/img/kwast.jpg");
+  background: rgba(239,240,239,0.62);
+  background-size: cover;
+  z-index: 9;
+  position: relative;
+
+  .row {
+    display: flex;
+    justify-content: center;
+
+    .dienst {
+      background: #a89cc8;
+      min-height: 400px;
+      padding: 30px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .dienst-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        p {
+          text-align: center;
+          padding: 40px;
+          font-size: 1.3em;
+        }
+
+        .dot {
+          position: relative;
+          font-size: 40px;
+          text-align: center;
+          height: 80px;
+          width: 80px;
+          background: #2f3542;
+          border-radius: 50%;
+          display: inline-block;
+
+          i {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  .dienst-header {
+    margin: 40px 0;
+    text-align: center;
+  }
+}
+
+.above-diensten{
+  margin-top: 10px;
+  z-index: 10;
+  position: absolute;
+}

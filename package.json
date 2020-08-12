@@ -1,0 +1,21 @@
+{
+  "name": "klusbedrijftothemax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch assets/style/app.scss assets/build/app.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iaachboun/klusbedrijftothemax.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iaachboun/klusbedrijftothemax/issues"
+  },
+  "homepage": "https://github.com/iaachboun/klusbedrijftothemax#readme",
+  "dependencies": {
+  }
+}

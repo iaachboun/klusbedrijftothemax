@@ -1,0 +1,42 @@
+@import "header";
+@import "home-hero";
+@import "diensten";
+@import "before-after";
+@import "contactform";
+@import "footer";
+@import "assets/slide-in";
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Header {
+  background: black;
+  height: 37vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.larger-h2{
+  font-size: 280%;
+}
+
+/*.overlay{
+  min-height: inherit;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+}*/
+
+.overlay-dark{
+  min-height: inherit;
+  width: 100%;
+  background-color: rgba(24,24,24, 0.5);
+  border-radius: 5px;
+}
+
+.fill-space-white{
+  height: 20px;
+  background-color: white;
+}
+

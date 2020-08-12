@@ -1,0 +1,314 @@
+.headerHome {
+  background: #2f3542;
+}
+.headerHome .nav-item a, .headerHome .navbar-brand {
+  transition: ease all 0.5s;
+  color: white !important;
+  font-size: 1.2em;
+}
+.headerHome .nav-item a:hover, .headerHome .navbar-brand:hover {
+  color: red !important;
+}
+.headerHome .navbar-brand {
+  font-size: 1.7em;
+}
+
+.hero-section {
+  background-image: url("../../assets/img/pexels-life-of-pix-8092.jpg");
+  background-repeat: no-repeat;
+  min-height: 70vh;
+  margin-top: -50px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-size: cover;
+}
+
+.heroArrows, .lastArrow {
+  max-width: 100%;
+  display: block;
+  width: 100%;
+}
+
+.firstHeroArrow {
+  margin-top: -1px;
+}
+
+.lastArrow {
+  transform: rotate(180deg);
+}
+
+.aboveHero {
+  margin-top: 43px;
+}
+.aboveHero .arrowDown {
+  width: 100%;
+  height: 0;
+  border-left: 50vw solid transparent;
+  border-right: 50vw solid transparent;
+  border-top: 40px solid #f00;
+}
+.aboveHero .arrowRight {
+  margin-top: -10px;
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 50vw solid green;
+}
+
+.heroText {
+  margin-top: 150px;
+  background: rgba(78, 78, 78, 0.69);
+  padding: 40px;
+  color: white;
+  border-radius: 5px;
+}
+
+.diensten-section {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 5vh 0;
+  margin: 10px auto 0 auto;
+  background: rgba(239, 240, 239, 0.62);
+  background-size: cover;
+  z-index: 9;
+  position: relative;
+}
+.diensten-section .row {
+  display: flex;
+  justify-content: center;
+}
+.diensten-section .row .dienst {
+  background: #a89cc8;
+  min-height: 400px;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.diensten-section .row .dienst .dienst-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.diensten-section .row .dienst .dienst-info p {
+  text-align: center;
+  padding: 40px;
+  font-size: 1.3em;
+}
+.diensten-section .row .dienst .dienst-info .dot {
+  position: relative;
+  font-size: 40px;
+  text-align: center;
+  height: 80px;
+  width: 80px;
+  background: #2f3542;
+  border-radius: 50%;
+  display: inline-block;
+}
+.diensten-section .row .dienst .dienst-info .dot i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.diensten-section .dienst-header {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.above-diensten {
+  margin-top: 10px;
+  z-index: 10;
+  position: absolute;
+}
+
+.before-after-section {
+  padding: 100px 0 0 0;
+  background-image: url("../../assets/img/contactBackground.jpg");
+  background-size: cover;
+}
+@media only screen and (min-width: 767px) {
+  .before-after-section {
+    padding: 130px 0 50px 0;
+  }
+}
+.before-after-section .before-after-title {
+  color: white;
+  text-align: center;
+  margin: 10px auto 50px auto;
+}
+.before-after-section .before-after-images {
+  text-align: center;
+  position: relative;
+}
+.before-after-section .before-after-images .images {
+  margin: 0 auto;
+  max-height: 100%;
+}
+.before-after-section .before-after-images .imageRow {
+  margin: 0 auto;
+}
+.before-after-section .before-after-images img {
+  float: none;
+  width: 100%;
+  height: auto;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+@media only screen and (min-width: 767px) {
+  .before-after-section .before-after-images img {
+    width: 50%;
+    float: left;
+  }
+}
+.before-after-section .before-after-images .slick-slide {
+  outline: none !important;
+}
+.before-after-section .before-after-images .slick-next {
+  right: -25px;
+}
+.before-after-section .before-after-images .slick-prev {
+  left: -25px;
+}
+.before-after-section .before-after-images .slick-prev, .before-after-section .before-after-images .slick-next {
+  font-size: 1.4em;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: none;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+@media only screen and (min-width: 767px) {
+  .before-after-section .before-after-images .slick-prev, .before-after-section .before-after-images .slick-next {
+    display: block;
+  }
+}
+
+.above-pics {
+  margin-top: 0;
+  z-index: 8;
+  position: absolute;
+}
+.above-pics .fill-space-white {
+  height: 30px;
+  background-color: white;
+}
+
+.contactForm-section {
+  background: #D3E0E6;
+  height: 75vh;
+  padding-top: 30px;
+}
+@media only screen and (min-width: 767px) {
+  .contactForm-section {
+    padding-top: 200px;
+  }
+}
+.contactForm-section .contactForm {
+  background: none !important;
+  padding: 0 20px 40px 20px;
+}
+.contactForm-section .contact-header {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer-section {
+  padding-top: 100px;
+  background-color: #57606f;
+  text-align: center;
+}
+.footer-section .footer-data {
+  text-align: left;
+  padding: 40px 0;
+}
+
+.footer-copyright {
+  background: #2f3542;
+}
+
+.page-footer {
+  background-color: #57606f;
+  color: white;
+}
+.page-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.slide-in-module {
+  width: 48%;
+  min-height: 200px;
+  background: white;
+  position: relative;
+  float: left;
+  padding: 20px;
+  margin-right: 4%;
+  margin-bottom: 4%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.slide-in-module:nth-child(even) {
+  margin-right: 0;
+}
+
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 0.8s ease forwards;
+}
+
+.come-in:nth-child(odd) {
+  animation-duration: 0.6s;
+}
+
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+}
+
+@keyframes come-in {
+  to {
+    transform: translateY(0);
+  }
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.Header {
+  background: black;
+  height: 37vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.larger-h2 {
+  font-size: 280%;
+}
+
+/*.overlay{
+  min-height: inherit;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+}*/
+.overlay-dark {
+  min-height: inherit;
+  width: 100%;
+  background-color: rgba(24, 24, 24, 0.5);
+  border-radius: 5px;
+}
+
+.fill-space-white {
+  height: 20px;
+  background-color: white;
+}
+
+/*# sourceMappingURL=app.css.map */

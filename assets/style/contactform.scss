@@ -1,0 +1,18 @@
+.contactForm-section {
+  background: #D3E0E6;
+  height: 75vh;
+  padding-top: 30px;
+  @media only screen and (min-width: 767px) {
+    padding-top: 200px;
+  }
+  .contactForm   {
+    background: none !important;
+    padding: 0 20px 40px 20px;
+  }
+
+  .contact-header {
+    padding: 30px 0;
+    text-align: center;
+  }
+
+}

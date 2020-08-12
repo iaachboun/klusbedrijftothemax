@@ -1,0 +1,81 @@
+.before-after-section {
+  padding: 100px 0 0 0;
+  background-image: url("../../assets/img/contactBackground.jpg");
+  background-size: cover;
+
+  @media only screen and (min-width: 767px) {
+    padding: 130px 0 50px 0;
+  }
+  .before-after-title {
+    color: white;
+    text-align: center;
+    margin: 10px auto 50px auto;
+  }
+
+  .before-after-images {
+    text-align: center;
+    position: relative;
+
+    .images {
+      margin: 0 auto;
+      max-height: 100%;
+    }
+
+    .imageRow {
+      margin: 0 auto;
+    }
+
+    img {
+      float: none;
+      width: 100%;
+      height: auto;
+      padding-right: 5px;
+      padding-bottom: 5px;
+      @media only screen and (min-width: 767px) {
+        width: 50%;
+        float: left;
+      }
+    }
+
+    .slick-slide {
+      outline: none !important;
+    }
+
+    .slick-next {
+      right: -25px;
+    }
+
+    .slick-prev {
+      left: -25px;
+    }
+
+    .slick-prev, .slick-next {
+      font-size: 1.4em;
+      line-height: 0;
+      position: absolute;
+      top: 50%;
+      display: none;
+      width: 20px;
+      height: 20px;
+      padding: 0;
+      cursor: pointer;
+      border: none;
+      outline: none;
+      background: transparent;
+      @media only screen and (min-width: 767px) {
+        display: block;
+      }
+    }
+  }
+}
+
+.above-pics{
+  margin-top: 0;
+  z-index: 8;
+  position: absolute;
+
+  .fill-space-white {
+    height: 30px;
+    background-color: white;
+  }
+}
